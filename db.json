@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "name": "Ravinder",
+      "lname": "Kumar",
+      "id": 1
+    },
+    {
+      "name": "Kishan",
+      "lname": "Sharma",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Deepak",
+      "lname": "Kumar"
+    },
+    {
+      "name": "Deepak",
+      "lname": "Negi",
+      "id": 4
+    },
+    {
+      "name": "Shubham",
+      "lname": "Thakur",
+      "id": 5
+    }
+  ]
+}

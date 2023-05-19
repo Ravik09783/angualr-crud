@@ -1,0 +1,15 @@
+<form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="text" formControlName="name">
+    </div>
+    <div class="form-group">
+      <label for="lname">Role Id</label>
+      <input type="text" formControlName="lname">
+    </div>
+  
+    <div class="submit-btn">
+      <button type="submit">Update Info</button>
+    </div>
+  </form>
+  

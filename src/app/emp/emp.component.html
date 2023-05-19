@@ -1,0 +1,33 @@
+<div class="emp-form">
+    <form action="">
+      <div>
+        <label for="name">First Name</label>
+        <input type="text" id="fname" #fname>
+      </div>
+      <div>
+        <label for="name">Last Name</label>
+        <input type="text" id="lname" #lname>
+      </div>
+      <div class="submit">
+        <button (click)="submitDetails(fname.value, lname.value)">Submit</button>
+      </div>
+    </form>
+  
+    <h1>User Details in the list</h1>
+  
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+      <tr *ngFor="let d of apiGetData">
+        <td>{{d.name}}</td>
+        <td>{{d.lname}}</td>
+        <td (click)="edit(d.id)"><button>Edit</button></td>
+        <td (click)="delete(d.id)"><button>Delete</button></td>
+      </tr>
+    </table>
+  </div>
+  

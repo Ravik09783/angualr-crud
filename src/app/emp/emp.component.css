@@ -1,0 +1,44 @@
+.emp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .submit {
+    margin-top: 10px;
+  }
+  
+  table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
